@@ -1,10 +1,12 @@
 /*
- * @Description: 组件
- * @Author: 海象
- * @Date: 2020-10-06 18:06:45
- * @LastEditors: 海象
- * @LastEditTime: 2020-12-26 13:48:13
+ * @Description:
+ * @Author: 张泽雨
+ * @Date: 2022-04-18 11:16:26
+ * @LastEditors: 张泽雨
+ * @LastEditTime: 2022-04-18 15:27:35
+ * @FilePath: \vue\src\store\index.js
  */
+
 import Vue from "vue";
 import Vuex from "vuex";
 import user from "./user";

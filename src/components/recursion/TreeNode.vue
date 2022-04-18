@@ -1,9 +1,10 @@
 <!--
- * @Description: 组件
- * @Author: 海象
- * @Date: 2020-10-08 21:28:06
- * @LastEditors: 海象
- * @LastEditTime: 2020-10-09 10:38:45
+ * @Description: 
+ * @Author: 张泽雨
+ * @Date: 2022-04-18 11:16:26
+ * @LastEditors: 张泽雨
+ * @LastEditTime: 2022-04-18 15:44:46
+ * @FilePath: \vue\src\components\recursion\TreeNode.vue
 -->
 <template>
   <div>
@@ -18,7 +19,8 @@
         :model="model"
         :key="model.title"
         :level="level + 1"
-      ></tree-node>
+      >
+      </tree-node>
     </div>
   </div>
 </template>

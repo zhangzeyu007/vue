@@ -3,7 +3,7 @@
  * @Author: 张泽雨
  * @Date: 2022-04-18 11:16:26
  * @LastEditors: 张泽雨
- * @LastEditTime: 2022-04-18 12:49:48
+ * @LastEditTime: 2022-04-18 13:36:37
  * @FilePath: \vue\src\components\form\KInput.vue
 -->
 <template>
@@ -15,6 +15,7 @@
 
 <script>
 import emmiter from "../../mixins/emitter";
+
 export default {
   inheritAttrs: false, // 禁止继承属性
   mixins: [emmiter],

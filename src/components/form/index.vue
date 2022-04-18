@@ -3,13 +3,13 @@
  * @Author: 张泽雨
  * @Date: 2022-04-18 11:16:26
  * @LastEditors: 张泽雨
- * @LastEditTime: 2022-04-18 12:49:40
+ * @LastEditTime: 2022-04-18 13:59:05
  * @FilePath: \vue\src\components\form\index.vue
 -->
 <template>
   <div>
     <!-- KForm 指定管理我们的数据和校验规则-->
-    <!-- KFormItem : 数据的校验和错误的展示 -->
+    <!-- KFormItem: 数据的校验和错误的展示 -->
     <KForm :model="model" :rules="rules" ref="loginForm">
       <KFormItem label="用户名" prop="username">
         <KInput v-model="model.username" placeholder="请输入账户"></KInput>
@@ -53,11 +53,11 @@ export default {
           title: "泽雨",
           message: isValid ? "请求登入" : "校验失败"
         }).show();
-        // if (isValid) {
-        //   console.log("登入提交");
-        // } else {
-        //   console.log("登入失败");
-        // }
+        if (isValid) {
+          console.log("登入提交");
+        } else {
+          console.log("登入失败");
+        }
       });
     }
   }

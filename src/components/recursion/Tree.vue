@@ -1,9 +1,10 @@
 <!--
- * @Description: 组件
- * @Author: 海象
- * @Date: 2020-10-08 21:27:42
- * @LastEditors: 海象
- * @LastEditTime: 2020-10-09 10:35:01
+ * @Description: 
+ * @Author: 张泽雨
+ * @Date: 2022-04-18 11:16:26
+ * @LastEditors: 张泽雨
+ * @LastEditTime: 2022-04-18 15:44:56
+ * @FilePath: \vue\src\components\recursion\Tree.vue
 -->
 <template>
   <div class="kkb-tree">

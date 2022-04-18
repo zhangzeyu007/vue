@@ -1,9 +1,10 @@
 /*
- * @Description: 组件
- * @Author: 海象
- * @Date: 2020-10-09 11:56:33
- * @LastEditors: 海象
- * @LastEditTime: 2020-10-10 17:49:06
+ * @Description:
+ * @Author: 张泽雨
+ * @Date: 2022-04-18 11:16:26
+ * @LastEditors: 张泽雨
+ * @LastEditTime: 2022-04-18 15:39:39
+ * @FilePath: \vue\src\krouter\kvue-router.js
  */
 // 实现一个插件
 // 返回一个函数
