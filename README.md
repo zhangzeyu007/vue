@@ -1,5 +1,5 @@
 # Vue 基础知识学习相关整理
-
+## vue 组件化学习与实践
 ## Project setup
 ```
 yarn install
