@@ -1,9 +1,10 @@
 <!--
- * @Description: 组件
- * @Author: 小鱼
- * @Date: 2020-10-06 23:40:58
- * @LastEditors: 海象
- * @LastEditTime: 2020-12-12 23:10:40
+ * @Description: 
+ * @Author: 张泽雨
+ * @Date: 2022-04-18 11:16:26
+ * @LastEditors: 张泽雨
+ * @LastEditTime: 2022-04-18 12:50:01
+ * @FilePath: \vue\src\components\form\KForm.vue
 -->
 <template>
   <div>

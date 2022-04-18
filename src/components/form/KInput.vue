@@ -1,9 +1,10 @@
 <!--
- * @Description: 组件
- * @Author: 小鱼
- * @Date: 2020-10-06 23:40:00
- * @LastEditors: 海象
- * @LastEditTime: 2020-11-26 11:35:29
+ * @Description: 
+ * @Author: 张泽雨
+ * @Date: 2022-04-18 11:16:26
+ * @LastEditors: 张泽雨
+ * @LastEditTime: 2022-04-18 12:49:48
+ * @FilePath: \vue\src\components\form\KInput.vue
 -->
 <template>
   <div>
@@ -15,7 +16,7 @@
 <script>
 import emmiter from "../../mixins/emitter";
 export default {
-  inheritAttrs: false,
+  inheritAttrs: false, // 禁止继承属性
   mixins: [emmiter],
   props: {
     type: {

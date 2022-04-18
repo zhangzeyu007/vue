@@ -1,9 +1,10 @@
 <!--
- * @Description: 组件
- * @Author: 小鱼
- * @Date: 2020-10-06 23:40:35
- * @LastEditors: 海象
- * @LastEditTime: 2020-10-07 17:40:54
+ * @Description: 
+ * @Author: 张泽雨
+ * @Date: 2022-04-18 11:16:26
+ * @LastEditors: 张泽雨
+ * @LastEditTime: 2022-04-18 12:49:40
+ * @FilePath: \vue\src\components\form\index.vue
 -->
 <template>
   <div>

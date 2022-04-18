@@ -1,10 +1,12 @@
 <!--
- * @Description: 组件
- * @Author: 小鱼
- * @Date: 2020-10-06 18:51:05
- * @LastEditors: 海象
- * @LastEditTime: 2020-12-13 18:39:09
+ * @Description: 
+ * @Author: 张泽雨
+ * @Date: 2022-04-18 11:16:26
+ * @LastEditors: 张泽雨
+ * @LastEditTime: 2022-04-18 12:05:12
+ * @FilePath: \vue\src\components\communication\Grandson.vue
 -->
+
 <template>
   <div class="Grandson" @click="$emit('some-event', 'some msg from grandsome')">
     <h3>Grandson</h3>
