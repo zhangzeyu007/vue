@@ -2,14 +2,14 @@
  * @Description: 组件
  * @Author: 海象
  * @Date: 2020-12-15 16:50:19
- * @LastEditors: 海象
- * @LastEditTime: 2020-12-15 17:16:08
+ * @LastEditors: 张泽雨
+ * @LastEditTime: 2022-04-18 13:08:23
  */
 
 import router from "./router";
 import store from "./store";
 
-const whiteList = ["/login"]; // 无需令牌白名单
+const whiteList = ["/demo"]; // 无需令牌白名单
 router.beforeEach(async (to, from, next) => {
   // 获取令牌判断用户是否是登录
   const hasToken = localStorage.getItem("token");

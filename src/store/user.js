@@ -2,8 +2,8 @@
  * @Description: 组件
  * @Author: 海象
  * @Date: 2020-12-13 11:41:32
- * @LastEditors: 海象
- * @LastEditTime: 2020-12-15 21:17:44
+ * @LastEditors: 张泽雨
+ * @LastEditTime: 2022-04-18 13:06:38
  */
 import { login, getInfo } from "@/api/user";
 
@@ -25,7 +25,6 @@ const mutations = {
 const actions = {
   // 模拟用户登录
   login({ commit }, userInfo) {
-    console.log(userInfo);
     return login(userInfo).then(res => {
       commit("setToken", res.data);
       localStorage.setItem("token", res.data);

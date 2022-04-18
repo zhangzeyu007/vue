@@ -3,7 +3,7 @@
  * @Author: 张泽雨
  * @Date: 2022-04-18 11:16:26
  * @LastEditors: 张泽雨
- * @LastEditTime: 2022-04-18 12:25:45
+ * @LastEditTime: 2022-04-18 12:57:13
  * @FilePath: \vue\src\components\form\KFormItem.vue
 -->
 <template>
@@ -53,11 +53,11 @@ export default {
     validate() {
       // 校验规则
       const rules = this.form.rules[this.prop];
-      //当前值
+      // 当前值
       const value = this.form.model[this.prop];
       // 创建一个校验器的实例
       const schema = new Schema({ [this.prop]: rules });
-      // 校验 返回Promise
+      // 校验返回Promise
       return schema.validate({ [this.prop]: value }, errors => {
         if (errors) {
           this.error = errors[0].message;

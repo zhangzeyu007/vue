@@ -2,8 +2,8 @@
  * @Description: 组件
  * @Author: 小鱼
  * @Date: 2020-10-06 18:06:45
- * @LastEditors: 海象
- * @LastEditTime: 2021-01-31 16:13:52
+ * @LastEditors: 张泽雨
+ * @LastEditTime: 2022-04-18 13:04:34
  */
 import Vue from "vue";
 import VueRouter from "vue-router";
@@ -48,6 +48,14 @@ export const constRoutes = [
       title: "Home" // 导航菜单项标题
     },
     component: () => import("@/views/Home")
+  },
+  {
+    path: "/demo",
+    name: "Demo",
+    meta: {
+      title: "Demo" // 导航菜单项标题
+    },
+    component: () => import("@/views/Demo")
   }
 ];
 // 权限页面: 受保护的页面, 要求用户登录并拥有访问权限的角色才能访问
