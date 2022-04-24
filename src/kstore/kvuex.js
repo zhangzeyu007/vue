@@ -1,9 +1,10 @@
 /*
- * @Description: 组件
- * @Author: 海象
- * @Date: 2020-10-10 21:34:47
- * @LastEditors: 海象
- * @LastEditTime: 2020-10-13 00:48:03
+ * @Description:
+ * @Author: 张泽雨
+ * @Date: 2022-04-18 11:16:26
+ * @LastEditors: 张泽雨
+ * @LastEditTime: 2022-04-18 17:34:13
+ * @FilePath: \vue\src\kstore\kvuex.js
  */
 
 let _Vue;
