@@ -2,29 +2,29 @@
  * @Description: 组件
  * @Author: 海象
  * @Date: 2020-10-20 11:12:32
- * @LastEditors: 海象
- * @LastEditTime: 2020-10-22 18:04:31
+ * @LastEditors: 张泽雨
+ * @LastEditTime: 2022-05-29 17:28:53
  */
 
 // Object.defineProperty
 function defineReactive(obj, key, val) {
-  // 如果val是对象, 需要递归处理
+  // todo 如果val是对象, 需要递归处理
   observe(val);
   // 管家创建
   const dep = new Dep();
 
   Object.defineProperty(obj, key, {
     get() {
-      //依赖收集 添加订阅者
+      //todo 依赖收集 添加订阅者
       Dep.target && dep.addDep(Dep.target);
       return val;
     },
     set(newVal) {
       if (val !== newVal) {
-        // 如果newval是一个对象, 也要做响应式处理
+        //todo 如果newval是一个对象, 也要做响应式处理
         observe(newVal);
         val = newVal;
-        // 通知更新
+        //todo  通知更新
         dep.notify();
       }
     }
@@ -36,8 +36,8 @@ function observe(obj) {
   if (typeof obj !== "object" || obj === null) {
     return obj;
   }
-  // 每遇到一个对象, 就创建一个Observer实例
-  // 创建一个Observer实例去做拦截操作
+  // todo 每遇到一个对象, 就创建一个Observer实例
+  // todo 创建一个Observer实例去做拦截操作
   new Observer(obj);
 }
 // proxy代理函数:让用户可以直接访问data中的key
@@ -57,7 +57,7 @@ function proxy(vm, key) {
 class Observer {
   constructor(value) {
     this.value = value;
-    //判断一下vlaue类型
+    // todo 判断一下vlaue类型
     // 遍历对象
     this.walk(value);
   }
@@ -68,18 +68,18 @@ class Observer {
   }
 }
 
-// 实现kVue构造函数
-// 1.将data 做响应式处理
+//todo 实现kVue构造函数
+// todo 1.将data 做响应式处理
 class KVue {
   constructor(options) {
     // 0.保存 options
     this.$options = options;
     this.$data = options.data;
 
-    // 1.将data做响应式处理
+    //todo 1.将data做响应式处理
     observe(this.$data);
 
-    // 2.为$data做代理
+    //todo 2.为$data做代理
     proxy(this, "$data");
 
     // 3.编译模板
@@ -130,7 +130,7 @@ class Compile {
   }
   // 编译元素 :分析指令 @事件
   compileElement(node) {
-    // 获取属性并遍历之
+    //todo 获取属性并遍历之
     const nodeAttrs = node.attributes;
     Array.from(nodeAttrs).forEach(attr => {
       // 指令： k-xxx ='yyy'
@@ -177,9 +177,9 @@ class Compile {
   }
   // k-model
   model(node, exp) {
-    // update 方法只完成赋值和更新
+    //todo: update 方法只完成赋值和更新
     this.update(node, exp, "model");
-    // 事件监听
+    //todo 事件监听
     node.addEventListener("input", e => {
       // 新的赋值给数据即可
       this.$vm[exp] = e.target.value;
@@ -208,7 +208,7 @@ class Watcher {
     this.vm = vm;
     this.key = key;
     this.updaterFn = updaterFn;
-    // 依赖收集触发
+    //todo 依赖收集触发
     Dep.target = this;
     this.vm[this.key]; // 触发上面的get
     Dep.target = null; // 全局变量设置为null

@@ -2,8 +2,8 @@
  * @Description: 组件
  * @Author: 小鱼
  * @Date: 2020-10-06 18:06:45
- * @LastEditors: 海象
- * @LastEditTime: 2020-12-01 22:16:04
+ * @LastEditors: 张泽雨
+ * @LastEditTime: 2022-05-28 22:10:21
  */
 import Vue from "vue";
 import VueRouter from "./kvue-router";
