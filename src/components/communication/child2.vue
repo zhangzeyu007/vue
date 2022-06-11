@@ -1,9 +1,10 @@
 <!--
- * @Description: 组件
- * @Author: 小鱼
- * @Date: 2020-10-06 18:34:12
- * @LastEditors: 海象
- * @LastEditTime: 2020-11-20 16:15:54
+ * @Description: 
+ * @Author: 张泽雨
+ * @Date: 2022-04-18 11:16:26
+ * @LastEditors: 张泽雨
+ * @LastEditTime: 2022-06-11 17:16:35
+ * @FilePath: \vue\src\components\communication\child2.vue
 -->
 <template>
   <div class="child2">

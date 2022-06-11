@@ -3,7 +3,7 @@
  * @Author: 张泽雨
  * @Date: 2022-04-18 11:16:26
  * @LastEditors: 张泽雨
- * @LastEditTime: 2022-04-18 13:59:05
+ * @LastEditTime: 2022-06-11 17:09:26
  * @FilePath: \vue\src\components\form\index.vue
 -->
 <template>
@@ -28,6 +28,7 @@ import KFormItem from "./KFormItem";
 import KForm from "./KForm";
 import Notice from "@/components/Notice.vue";
 import create from "@/utils/create";
+
 export default {
   components: {
     KInput,

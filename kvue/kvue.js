@@ -3,14 +3,14 @@
  * @Author: 海象
  * @Date: 2020-10-20 11:12:32
  * @LastEditors: 张泽雨
- * @LastEditTime: 2022-05-29 17:28:53
+ * @LastEditTime: 2022-05-29 17:52:39
  */
 
 // Object.defineProperty
 function defineReactive(obj, key, val) {
   // todo 如果val是对象, 需要递归处理
   observe(val);
-  // 管家创建
+  //todo 管家创建
   const dep = new Dep();
 
   Object.defineProperty(obj, key, {
@@ -58,7 +58,7 @@ class Observer {
   constructor(value) {
     this.value = value;
     // todo 判断一下vlaue类型
-    // 遍历对象
+    //todo 遍历对象
     this.walk(value);
   }
   walk(obj) {

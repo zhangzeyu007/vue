@@ -1,9 +1,10 @@
 <!--
- * @Description: 组件
- * @Author: 小鱼
- * @Date: 2020-10-06 18:34:03
- * @LastEditors: 小鱼
- * @LastEditTime: 2020-10-06 21:47:03
+ * @Description: 
+ * @Author: 张泽雨
+ * @Date: 2022-04-18 11:16:26
+ * @LastEditors: 张泽雨
+ * @LastEditTime: 2022-06-11 17:16:25
+ * @FilePath: \vue\src\components\communication\child1.vue
 -->
 <template>
   <div class="child1" @click="$emit('some-event', 'msg from child1')">
