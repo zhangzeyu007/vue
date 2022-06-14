@@ -1,10 +1,12 @@
 <!--
- * @Description: 组件
- * @Author: 小鱼
- * @Date: 2020-10-06 18:06:45
- * @LastEditors: 海象
- * @LastEditTime: 2020-12-13 16:34:56
+ * @Description: 
+ * @Author: 张泽雨
+ * @Date: 2022-04-18 11:16:26
+ * @LastEditors: 张泽雨
+ * @LastEditTime: 2022-06-14 10:03:11
+ * @FilePath: \vue\src\views\Home.vue
 -->
+
 <template>
   <div class="home">
     <router-link to="/">Home</router-link>

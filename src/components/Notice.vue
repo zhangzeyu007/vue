@@ -1,9 +1,10 @@
 <!--
- * @Description: 组件
- * @Author: 海象
- * @Date: 2020-10-07 17:32:00
- * @LastEditors: 海象
- * @LastEditTime: 2020-10-08 10:55:35
+ * @Description: 
+ * @Author: 张泽雨
+ * @Date: 2022-04-18 11:16:26
+ * @LastEditors: 张泽雨
+ * @LastEditTime: 2022-06-12 11:08:32
+ * @FilePath: \vue\src\components\Notice.vue
 -->
 <template>
   <div class="box" v-if="isShow">

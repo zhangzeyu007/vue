@@ -1,9 +1,10 @@
 /*
- * @Description: 组件
- * @Author: 海象
- * @Date: 2020-12-13 13:18:45
- * @LastEditors: 海象
- * @LastEditTime: 2020-12-13 13:21:05
+ * @Description:
+ * @Author: 张泽雨
+ * @Date: 2022-04-18 11:16:26
+ * @LastEditors: 张泽雨
+ * @LastEditTime: 2022-06-14 10:05:37
+ * @FilePath: \vue\src\api\user.js
  */
 import axios from "@/utils/request";
 
